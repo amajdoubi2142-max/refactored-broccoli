@@ -1,0 +1,20 @@
+name: airshare
+description: One-button split-ear demo (cloud-built APK via GitHub Actions)
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  media_kit: ^1.1.10
+  media_kit_libs_android_audio: ^1.1.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
